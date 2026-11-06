@@ -1,0 +1,14 @@
+# Local dependencies: docker compose up -d
+services:
+  postgres:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_DB: accounts
+      POSTGRES_USER: accounts
+      POSTGRES_PASSWORD: accounts
+    ports:
+      - "5432:5432"
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"

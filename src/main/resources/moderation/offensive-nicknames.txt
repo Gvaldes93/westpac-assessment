@@ -1,0 +1,12 @@
+# Offensive terms rejected in account nicknames (case, accents, separators and look-alike
+# characters are ignored when matching).
+# Deliberately mild sample to demonstrate the check.
+# TODO: replace this placeholder list with the bank's managed content-moderation list.
+idiot
+moron
+stupid
+loser
+dumbass
+jackass
+crap
+scumbag
